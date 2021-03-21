@@ -12,7 +12,7 @@
     float: right;
 }
 
-.text_description, .text_descriptionSecondRow, .notActive, .mobile_button_continer {
+.text_description, .text_descriptionSecondRow, .notActive, .mobile_button_container {
     display: none;
 }
 
