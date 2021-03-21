@@ -1,0 +1,302 @@
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.prev {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+.text_description, .text_descriptionSecondRow, .notActive, .mobile_button_continer {
+    display: none;
+}
+
+.active2{
+    color: white;
+    background-color: black;
+    width: 116px;
+}
+
+.notActive2{
+    color: white;
+    background-color: black;
+    width: 116px;
+}
+
+.image-container{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.prev_Mobile, .next_Mobile{
+    display: none;
+}
+
+/* Header */
+
+h4.header_line::before {
+    border-top: 2px solid #e5e5e5;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 7%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+.header_Text{
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+
+img.instagram_picture:hover {
+
+linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5))
+}
+
+@media (min-width: 2559px) {
+
+    .prev, .next {
+        margin-top: 30px;
+    }
+
+    .image-container {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+    }
+
+    .picture-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40% !important;
+    }
+
+    .instagram_picture {
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 116px;
+        height: 130px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+    .prev, .next {
+        margin-top: 30px;
+    }
+
+    .image-container{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .picture-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 72%;
+    }
+
+    .instagram_picture{
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 116px;
+        height: 130px;
+    }
+
+}
+
+
+@media (max-width: 1024px){
+
+    .prev, .next {
+        margin-top: 30px;
+    }
+
+    .image-container{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .picture-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .instagram_picture{
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 116px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 769px){
+
+    .picture-container {
+        width: 100%;
+    }
+
+    .image-container {
+
+        width: 100%;
+    }
+
+    .instagram_picture {
+        padding-left: 28px;
+        padding-bottom: 10px;
+        width: 113px;
+        height: 113px;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+
+    .prev_Mobile, .next_Mobile {
+        display: block;
+        width: 60px;
+    }
+
+    .mobile_button_continer {
+        margin-left: 39%;
+        display: block;
+        position: absolute;
+    }
+
+    .prev_Mobile {
+        margin-right: 15px;
+        float: left;
+    }
+
+    .next_Mobile {
+        margin-left: 20px;
+        float: right;
+    }
+}
+
+
+@media (max-width: 426px){
+
+    .picture-container {
+        width: 100%;
+    }
+
+    .image-container {
+
+        width: 100%;
+    }
+
+    .instagram_picture {
+        padding-left: 28px;
+        padding-bottom: 10px;
+        width: 113px;
+        height: 113px;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+
+    .prev_Mobile, .next_Mobile {
+        display: block;
+        width: 30px;
+    }
+
+    .mobile_button_continer {
+        margin-left: 40%;
+        display: block;
+        position: absolute;
+    }
+
+    .prev_Mobile {
+        margin-right: 5px;
+        float: left;
+    }
+
+    .next_Mobile {
+        margin-left: 15px;
+        float: right;
+    }
+}
+
+
+
+@media (max-width: 376px) {
+
+    .instagram_picture {
+        padding-left: 23px;
+        padding-bottom: 4px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .prev_Mobile, .next_Mobile {
+        display: block;
+        width: 30px;
+    }
+
+    .mobile_button_continer {
+        margin-left: 40%;
+        display: block;
+        position: absolute;
+    }
+
+    .prev_Mobile {
+        margin-right: 5px;
+    }
+
+    .next_Mobile{
+        margin-left: 0px;
+    }
+
+}
+
+
+
+@media (max-width: 320px){
+
+    .instagram_picture{
+        padding-left: 18px;
+        padding-bottom: 4px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .prev_Mobile, .next_Mobile {
+        display: block;
+        width: 30px;
+    }
+
+    .mobile_button_continer{
+        margin-left: 40%;
+        display: block;
+        position: absolute;
+    }
+
+    .prev_Mobile{
+        margin-right: 5px;
+    }
+
+    .next_Mobile{
+        margin-left: 0px;
+    }
+}
