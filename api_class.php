@@ -5,6 +5,7 @@ class InstagramApi
 
     public function instagram_api_request() {
 
+        //Change amount of pictures
         $amountOfImages = 12;
 
         $curl = curl_init();
